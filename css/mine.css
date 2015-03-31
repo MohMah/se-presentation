@@ -1,0 +1,11 @@
+@font-face {
+  font-family: byek;
+  src: url('../fonts/byekan/W_yekan.woff') format('woff');
+  /*url('../fonts/byekan/W_yekan.ttf') format('truetype'),*/
+  /*url('@{byekan-location}@{byekan-filename}.ttf') format('truetype'),*/
+  /*url('@{byekan-location}@{byekan-filename}.svg#@{byekan-filename}') format('svg');*/
+}
+
+.reveal, .reveal * {
+    font-family: byek !important;
+}
